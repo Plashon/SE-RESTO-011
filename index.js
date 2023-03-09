@@ -62,3 +62,12 @@ var swiper = new Swiper(".review-slider", {
   }
 });
 /*loader*/
+function loader(){
+  document.querySelector(".loader-container").classList.add("fade-Out")
+  
+}
+function fadeOut(){
+  setInterval(loader, 3000)
+}
+
+window.onload = fadeOut;

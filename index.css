@@ -564,7 +564,8 @@ header .flex .icons #menu-bars{
 .loader-container img{
     width: 35rem;
 }
-.loader-container .fade-out{
+
+.loader-container.fade-Out{
     top: -110%;
     opacity: 0;
 }
