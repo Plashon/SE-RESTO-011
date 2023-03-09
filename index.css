@@ -580,6 +580,15 @@ header .flex .icons #menu-bars{
 
 
 /*Media Query*/
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+
+}
 @media(max-width:768px){
     header .flex .icons #menu-bars{
         display: inline-block;
@@ -606,5 +615,26 @@ header .flex .icons #menu-bars{
         font-size: 2rem;
         background: #eee;
     }
+    #seach-form #seach-box{
+        width: 90%;
+        margin: 0 1rem;
+    }
+    .home .home-slider .slide{
+        margin-bottom: 4rem;
+    }
+    .home .home-slider .slide .content h3{
+        font-size: 4.5rem;
+    }
+}
+@media (max-width:450px) {
+    html{
+        font-size: 50%;
+    }
+    .dishes.box-container.box img{
+        height: auto;
+        width: 100%;
+    }
+    
+    
 }
 
